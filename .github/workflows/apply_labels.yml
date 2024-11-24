@@ -1,0 +1,30 @@
+name: Apply Labels Based on Template
+
+on:
+  pull_request:
+    types: [opened, edited]
+
+jobs:
+  label-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v3
+
+      - name: Apply Label Based on PR Body
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Extract the PR body using GitHub CLI
+          PR_BODY=$(gh pr view ${{ github.event.pull_request.number }} --json body -q ".body")
+
+          # Determine which label to apply
+          if [[ "$PR_BODY" == *"ONE"* ]]; then
+            gh pr edit ${{ github.event.pull_request.number }} --add-label "ONE"
+          elif [[ "$PR_BODY" == *"TWO"* ]]; then
+            gh pr edit ${{ github.event.pull_request.number }} --add-label "TWO"
+          elif [[ "$PR_BODY" == *"THREE"* ]]; then
+            gh pr edit ${{ github.event.pull_request.number }} --add-label "THREE"
+          elif [[ "$PR_BODY" == *"FOUR"* ]]; then
+            gh pr edit ${{ github.event.pull_request.number }} --add-label "FOUR"
+          fi
