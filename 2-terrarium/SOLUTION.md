@@ -71,13 +71,19 @@ Assignment:
 
 Challenge:
 Used the marquee tag and 
-```<marquee behavior="" direction="">Join the Indian Armed Forces!!!</marquee>
 ```
-![img]()
+<marquee behavior="" direction="">Join the Indian Armed Forces!!!</marquee>
+```
+![Screenshot from 2024-11-22 05-50-09](https://github.com/user-attachments/assets/11c89bea-4018-4cc6-9196-25d701cc271a)
+
+
 
 2. Introduction to CSS
 Assignment:
-![img]()
+![Screenshot from 2024-11-24 15-05-34](https://github.com/user-attachments/assets/bafa70b6-3e87-453e-a5a2-833c36e64902)
+![Screenshot from 2024-11-24 16-18-25](https://github.com/user-attachments/assets/cbc885dc-46ef-4d0c-96ae-2185e39175a4)
+
+
 ```<!DOCTYPE html>
 <html>
 <head>
@@ -198,6 +204,9 @@ h1 {
 }
 ```
 Challenges:
+
+![Screenshot from 2024-11-24 16-49-06](https://github.com/user-attachments/assets/54b94975-1550-409a-b4ca-4242663b9b55)
+
 ```.jar-glossy-long {
   position: absolute;
   width: 4%;
@@ -235,4 +244,7 @@ Challenges:
 ```
 I have added a hover effect whenever we move the plants it adds the effect.
 
+![rn_image_picker_lib_temp_1e87dbe2-8f86-4767-bf49-9ade9317ab21](https://github.com/user-attachments/assets/f5a91a31-1fcf-4266-a16d-bb20470c65c1)
+
+![rn_image_picker_lib_temp_f9040703-2043-4263-909a-3ec06cb194ab](https://github.com/user-attachments/assets/7a0b76f6-4d98-4510-9b9d-5b409a28b896)
 
