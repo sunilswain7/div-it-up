@@ -174,6 +174,4 @@ typedValueElement.addEventListener('input', () => {
 
 
 ```
-Have implemented all the functionality mentioned in the chyallenges.
-Screenshots:
-
+Have implemented all the functionality mentioned in the challenges.
