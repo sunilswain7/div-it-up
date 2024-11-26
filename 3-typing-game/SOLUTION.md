@@ -2,6 +2,12 @@ Assignment:
 Have added the directory for my typing game with this pr.
 
 Challenges:
+Screenshots:
+
+![Screenshot from 2024-11-27 06-54-12](https://github.com/user-attachments/assets/02327fba-b3f4-4c9f-a8b8-c26a7a384c3f)
+![Screenshot from 2024-11-27 06-54-46](https://github.com/user-attachments/assets/f77f031f-287c-4b8a-99ac-2d25cbf23234)
+
+
 index.js
 
 ```<!-- inside index.html -->
